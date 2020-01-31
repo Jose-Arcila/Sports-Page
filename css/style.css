@@ -53,8 +53,14 @@ html, body {
     
 }
 
+.hero-headline {
+    margin: 130px 0;
+    
+}
+
 #hero-banner .hero-headline h1{
-    font-size: 32px;
+    font-size: 40px;
+    margin: 0;
     
 }
 
@@ -116,7 +122,6 @@ html, body {
 .person-background {
     height: 300px;
     
-    
 }
 
 .person-background h1 {
@@ -129,7 +134,7 @@ html, body {
 
 .person-bottom-text {
     background-color: #F5F4F9;
-    height: 370px;
+    height: 350px;
     width: 100%;
     padding-top: 50px;
     
@@ -138,7 +143,8 @@ html, body {
 .bottomtext-toprow {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 20px;
     
 }
 
@@ -207,4 +213,68 @@ html, body {
     margin-top: 70px;
     
 }
+
+#be-active .image-header {
+    height: 300px;
+    width: 100%;
+    background-image: url(../assets/img/beActive.jpg);
+    background-size: cover;
+    
+}
+
+#find-contact .image-header {
+    height: 300px;
+    width: 100%;
+    background-image: url(../assets/img/findContact.jpg);
+    background-size: cover;
+    
+}
+
+.purple-square {
+    background-color: #5C3CAF;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;;
+    flex-direction: column;
+    margin: -50px 20px;
+    margin-bottom: 0;
+    
+}
+
+.purple-square h1{
+    color: white;
+    margin: 0;
+    
+}
+
+.purple-square .bottom-portion{
+    background-color: #816cb7;
+    height: 5px;
+    width: 15px;
+    border-radius: 50px;
+    
+}
+
+.text-underheader {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.text-underheader h1{
+    color: #d8d8d8
+    
+}
+
+.underheader-bottom-portion {
+    width: 30px;
+    height: 5px;
+    background-color: #5C3CAF;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    
+}
+
+
 
