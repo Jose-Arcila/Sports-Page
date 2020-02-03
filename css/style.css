@@ -257,6 +257,14 @@ html, body {
     
 }
 
+#work-it .image-header {
+    height: 100vw;
+    width: 100%;
+    background-image: url(../assets/img/work-it.jpg);
+    background-size: cover;
+    
+}
+
 .purple-square {
     background-color: #5C3CAF;
     width: 70px;
@@ -428,10 +436,11 @@ footer .button {
     #flying-athlete {
         background-image: url(../assets/img/footballer.png);
         width: 100%;
-        height: 70vh;
+        height: 100vw;
         position: absolute;
         left: -35%;
-    
+        max-height: 820px;
+        
     }
     
     .person-bottom-text:nth-of-type(5) {
@@ -502,6 +511,7 @@ footer .button {
         position: absolute;
         right: -45%; 
         margin-top: -40px;
+        max-height: 830px;
         
     }
     
@@ -511,7 +521,7 @@ footer .button {
     }
     
     #bottom-row-player .person-background h1 { 
-        padding-left: 3% !important;
+        padding-left: 3%;
         
     }
     
@@ -531,7 +541,7 @@ footer .button {
         
     }
     
-    #bottom-row-player .person-bottom-text:nth-of-type(5) h1, #bottom-row-player .person-bottom-text:nth-of-type(5) p {
+    #bottom-row-player .person-bottom-text:nth-of-type(5) p {
         color: white;
         
     }
@@ -542,3 +552,205 @@ footer .button {
     }
     
 }
+
+@media (min-width: 1200px) {
+    
+    figure {
+        display: flex !important;
+        justify-content: space-around !important;
+        margin: 0 -320px !important;  
+        
+    }
+    
+    .wrapper {
+        width: 100%;
+        max-width: 2700px;
+        
+    }
+    
+    .hero-headline {
+        max-width: 1700px !important;
+        margin-top: 200px !important;
+        margin-bottom: 50px !important;
+        
+    }
+    
+    .hero-headline h1 {
+        font-size: 90px !important;
+        line-height: 150px;
+        
+    }
+    
+    #flying-athlete {
+        margin-left: 15%;
+        
+    }
+    
+    .wrapper .store-buttons .button {
+        font-size: 100% !important;
+        padding: 1%;
+        border-radius: 150px;
+        margin: 0 20px;
+
+    }
+    
+    .wrapper .button span {
+        width: 80%;
+        padding-left: 20px;
+        
+    }
+    
+    .wrapper .store-buttons {
+        padding-bottom: 5%;
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
+        
+    }
+    
+    .wrapper .icon {
+        font-size: 50px !important;
+        
+    }
+    
+    .hash-holder {
+        display: none;
+        
+    }
+    
+    #top-row-athlete .person-bottom-text {
+        padding-right: 20%;
+        
+    }
+    
+    #top-row-athlete .person-background h1 {
+        padding-left: 6%;
+        
+    }
+    
+    #bottom-row-player .person-bottom-text {
+        padding-left: 15% !important;
+        
+    }
+    
+    #bottom-row-player .person-background h1 {
+        padding-left: 26% !important;
+        
+    }
+     
+    #bottom-row-player .person-background {
+        margin-top: 5% !important;
+        
+    }
+      
+    #flying-player {
+        margin-right: 20%;
+        
+    }
+    
+    .person-background h1 {
+        font-size: 70px;
+        
+    }
+    
+    .bottomtext-toprow h1{
+        font-size: 28px;
+        
+    }
+     
+    .bottomtext-toprow {
+        padding-top: 30px;
+        
+    }
+     
+    .bottomtext-toprow p {
+        color: white;
+        
+    }
+    
+    .bottom-toptext-icon {
+        margin-top: -1.5vh;
+        margin-right: 20px;
+        
+    }
+    
+    .whitecolor {
+        color: white !important;
+        
+    }
+    
+    #be-active, #work-it {
+        display: flex;
+        height: 1000px;
+        
+    }
+    
+    #be-active, #work-it {
+        display: flex;
+        height: 800px;
+        
+    }
+    
+    #find-contact {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+     
+    #find-contact h1, #be-active h1, #work-it h1 {
+        font-size: 90px;
+        padding-left: 80px;
+        
+    }
+    
+    .image-header {
+        height: 800px !important;
+        width: 90% !important;
+        
+    }
+    
+    .purple-square {
+        height: 20px;
+        margin: 330px -50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3%;
+        
+    }
+    
+    .text-underheader {
+        margin-top: 240px;
+        
+    }
+    
+    .text-underheader p {
+        display: block;
+        margin: -40px auto 0 auto;
+        margin-left: 85px;
+        width: 80%;
+        
+    }
+    
+    .underheader-bottom-portion {
+        margin: 40px 0 0px 85px;
+        
+    }
+    
+    #albetern {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    
+    #albetern .img {
+        margin: 0;
+    
+        
+    }
+    
+}
+
+
