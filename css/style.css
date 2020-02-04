@@ -374,6 +374,11 @@ footer .button {
     
 }
 
+#logo-container-bottom {
+    display: none;
+    
+}
+
 @media (min-width: 560px) {
     
     #hero-banner figure {
@@ -547,6 +552,11 @@ footer .button {
     }
     
     .little-circles {
+        display: none;
+        
+    }
+    
+    #logo-container-bottom {
         display: none;
         
     }
@@ -748,6 +758,29 @@ footer .button {
     #albetern .img {
         margin: 0;
     
+        
+    }
+    
+    footer .store-buttons {
+        margin-bottom: 100px;
+        
+    }
+    
+    footer .link-holder-bottom {
+        width: 10% !important;
+        position: absolute;
+        left: 45%;
+            
+    }
+    
+    #logo-container-bottom {
+        display: flex;
+        
+        
+    }
+    
+    .bottom-imager {
+        flex: 1;
         
     }
     
